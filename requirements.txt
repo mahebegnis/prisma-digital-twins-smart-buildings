@@ -1,0 +1,8 @@
+# Python dependencies to reproduce the PRISMA pipeline
+# Python 3.10+ required
+
+pandas>=2.0.0
+numpy>=1.24.0
+pdfplumber>=0.10.0      # PDF text extraction (06_extract_technical_details.py)
+matplotlib>=3.7.0       # PRISMA Flow Diagram generation (07_prisma_flow_diagram.py)
+requests>=2.30.0        # Unpaywall / OpenAlex / Semantic Scholar / CORE APIs (04_fetch_pdfs.py)

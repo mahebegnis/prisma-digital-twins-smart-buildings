@@ -1,0 +1,114 @@
+# ─────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+
+# ─────────────────────────────────────────
+# Environment / secrets
+# ─────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+secrets.json
+config.local.*
+*.pem
+*.key
+
+# ─────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────
+# IDE / Editors
+# ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.spyderproject
+.spyproject
+.ropeproject
+
+# ─────────────────────────────────────────
+# LaTeX / Pandoc (regenerated artefacts)
+# ─────────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+
+# ─────────────────────────────────────────
+# Project-specific exclusions
+# ─────────────────────────────────────────
+# Original article PDFs (publisher copyright — never commit)
+fulltexts/
+*.pdf.bak
+
+# Raw database exports (not redistributable)
+search_results/raw/
+download_manuel_articles/
+
+# Local working / intermediate files
+*.tmp
+*.bak
+*~

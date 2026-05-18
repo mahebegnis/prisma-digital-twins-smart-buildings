@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The Role of Digital Twins in Energy Optimization and Smart Building Management: A Systematic Review using PRISMA"
+type: software
+authors:
+  - family-names: Begnis
+    given-names: Mahé
+    affiliation: "Université Catholique de Lille — École du Numérique — Master 1 Data & AI"
+  - family-names: Rayane
+    given-names: Rémy
+    affiliation: "Université Catholique de Lille — École du Numérique — Master 1 Data & AI"
+  - family-names: Bensalem
+    given-names: Jibril
+    affiliation: "Université Catholique de Lille — École du Numérique — Master 1 Data & AI"
+  - family-names: Signate
+    given-names: Maïmouna
+    affiliation: "Université Catholique de Lille — École du Numérique — Master 1 Data & AI"
+  - family-names: Dagar
+    given-names: Vaneck
+    affiliation: "Université Catholique de Lille — École du Numérique — Master 1 Data & AI"
+date-released: "2026-05-18"
+version: "1.0.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/mahebegnis/prisma-digital-twins-smart-buildings"
+url: "https://github.com/mahebegnis/prisma-digital-twins-smart-buildings"
+abstract: >
+  This repository contains the full materials of a PRISMA 2020 systematic review
+  on Digital Twins for energy optimization and smart building management,
+  covering publications from 2015 to 2025 across four databases (Scopus, Web of
+  Science, IEEE Xplore, SpringerNature). 704 raw records were reduced to 45
+  included studies through a multi-stage screening pipeline assisted by Large
+  Language Models (Gemini 2.5 Flash, Claude Opus) under human supervision,
+  with all decisions validated by the full 5-member team. The repository
+  includes the final IEEE-formatted article, the complete Python pipeline,
+  decision artefacts (CSVs), and a technical mapping of the 45 included studies
+  identifying EnergyPlus, Python, and Model Predictive Control as the dominant
+  stack — while flagging the complete absence of studies in tropical maritime,
+  ultra-marine, and coastal climates as a critical research challenge.
+keywords:
+  - PRISMA 2020
+  - systematic review
+  - digital twin
+  - smart buildings
+  - BIM
+  - IoT
+  - HVAC
+  - MPC
+  - model predictive control
+  - energy efficiency
+  - python
+  - llm-assisted review
+  - reproducible research
+references:
+  - type: article
+    title: "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews"
+    authors:
+      - family-names: Page
+        given-names: "Matthew J."
+      - family-names: McKenzie
+        given-names: "Joanne E."
+    year: 2021
+    journal: "BMJ"
+    volume: 372
+    pages: "n71"
+    doi: "10.1136/bmj.n71"
+  - type: article
+    title: "Digital Twin in Manufacturing: A Categorical Literature Review and Classification"
+    authors:
+      - family-names: Kritzinger
+        given-names: Werner
+    year: 2018
+    journal: "IFAC-PapersOnLine"
+    volume: 51
+    issue: 11
+    pages: "1016-1022"
+    doi: "10.1016/j.ifacol.2018.08.474"
