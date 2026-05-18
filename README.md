@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 What this repository contains
+## What this repository contains
 
 This repository hosts the **complete materials** of a PRISMA 2020 systematic review on Digital Twins for energy optimization in smart buildings (2015–2025), including:
 
@@ -20,7 +20,7 @@ This repository hosts the **complete materials** of a PRISMA 2020 systematic rev
 - The **decision CSVs** at each pipeline step (548 → 167 → 130 → 45 articles)
 - The **technical mapping** of all 45 included studies for RQ4 (80 regex patterns × 45 articles)
 
-## 📂 Repository structure
+## Repository structure
 
 ```
 .
@@ -51,7 +51,7 @@ This repository hosts the **complete materials** of a PRISMA 2020 systematic rev
     └── 07_technical_extraction.csv                ← 45 × 80 RQ4 patterns
 ```
 
-## 🔬 PRISMA 2020 pipeline
+## PRISMA 2020 pipeline
 
 ```
 704  raw records (Scopus 343 + WoS 150 + SpringerNature 144 + IEEE 67)
@@ -67,7 +67,7 @@ This repository hosts the **complete materials** of a PRISMA 2020 systematic rev
 45   studies included in the qualitative synthesis
 ```
 
-## 🔍 Four research questions
+## Four research questions
 
 | RQ | Question | Tables in article |
 |---|---|---|
@@ -76,7 +76,7 @@ This repository hosts the **complete materials** of a PRISMA 2020 systematic rev
 | **RQ3** | Challenges and technical limitations | 6 |
 | **RQ4** | Technical tools and methods actually mobilized | 7, 8 |
 
-## 📊 Key findings
+## Key findings
 
 - **4 thematic categories**: Energy consumption & supervision (71 %), Indoor Comfort & IAQ (20 %), Maintenance & Structural Health (7 %), Specialized Applications (2 %)
 - **Kritzinger taxonomy**: 71 % implement a true Twin, 29 % remain at Shadow level
@@ -84,7 +84,7 @@ This repository hosts the **complete materials** of a PRISMA 2020 systematic rev
 - **Dominant stack** (RQ4): EnergyPlus (33 %), Python (27 %), MPC (49 %)
 - **Critical research gap**: **0 / 45** studies in tropical maritime, ultra-marine, or coastal climates — motivating a future pilot DT for a bioclimatic building in such a context
 
-## ▶️ How to reproduce the pipeline
+## How to reproduce the pipeline
 
 ```bash
 # Clone the repository
@@ -106,7 +106,7 @@ python code/07_prisma_flow_diagram.py
 
 **Reproducibility note**: the pipeline is **fully reproducible up to V3 screening** (steps 01–03). The full-text screening (step 05) is **partially reproducible** because LLM reading is not strictly deterministic; however, every decision is documented with a rationale in the corresponding CSV.
 
-## ⚠️ Data not included (publisher copyright)
+## Data not included (publisher copyright)
 
 For copyright reasons, this repository does **NOT** redistribute:
 
@@ -115,7 +115,7 @@ For copyright reasons, this repository does **NOT** redistribute:
 
 All DOIs are provided in the bibliography of the article and in the CSVs, allowing independent retrieval via institutional access.
 
-## 🔬 Methodological transparency
+## Methodological transparency
 
 This review used **Large Language Model assistance** at multiple stages:
 
@@ -124,7 +124,7 @@ This review used **Large Language Model assistance** at multiple stages:
 
 All manual decisions were **initially produced by one team member and subsequently reviewed and validated by all five team members**. Disagreements were resolved by team discussion. This peer-validation procedure is stronger than a single-reviewer protocol but **not strictly equivalent** to a PRISMA-recommended double-reviewer protocol with Cohen's kappa — this nuance is explicitly declared in §4.4 limitation 3 of the article. Future work includes a formal independent double-screening with kappa computation.
 
-## 📜 Citation
+## Citation
 
 If you use this work, please cite it as:
 
@@ -136,13 +136,9 @@ If you use this work, please cite it as:
 
 A machine-readable [`CITATION.cff`](./CITATION.cff) is provided.
 
-## 📄 License
+## License
 
 This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](./LICENSE). You are free to share and adapt the material, provided you give appropriate credit.
-
-## 💬 Contact
-
-Questions, methodological feedback, or interest in collaborating on the tropical pilot DT? Open a [GitHub issue](https://github.com/mahebegnis/prisma-digital-twins-smart-buildings/issues) or contact the authors via Université Catholique de Lille — École du Numérique.
 
 ---
 
